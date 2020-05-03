@@ -1,4 +1,5 @@
 import Footer from '../components/Footer';
+import Head from 'next/head'
 
 const Layout = props => (
 	<div id="wrapper">

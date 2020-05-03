@@ -6,7 +6,6 @@ import React from 'react'
 import { PageTransition } from 'next-page-transitions'
 
 export default class MyApp extends App {
-
   render() {
     const { Component, pageProps,router } = this.props
     return (

@@ -1,6 +1,0 @@
-Sitemap: https://tmkrtchyan.now.sh/api/posts-sitemap
-
-User-agent: *
-Allow: /*
-
-Disallow: /api/*

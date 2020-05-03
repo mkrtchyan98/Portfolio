@@ -6,6 +6,15 @@ import React from 'react'
 import { PageTransition } from 'next-page-transitions'
 
 export default class MyApp extends App {
+componentDidMount() {
+    document.getElementById('__next').classList.add('is-preload');
+        window.setTimeout(function() {
+      document.getElementById('__next').classList.remove('is-preload');
+      }, 100);
+  
+ 
+  }
+
 
   render() {
     const { Component, router } = this.props

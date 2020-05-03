@@ -1,9 +1,8 @@
 import Head from 'next/head'
 import Link from 'next/link'
-
 export default function Home() {
 
- 
+
   return (
     <>
     <Head>
@@ -15,7 +14,6 @@ export default function Home() {
      <div className="content">
 <div className="inner">
   <h1>  Welcome To My official Website</h1>
-  <Link href="/skills" ><a className="btn btn-primary" role="button">See more</a></Link>
 </div>
      </div>
      <nav>

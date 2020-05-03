@@ -1,4 +1,3 @@
-import Footer from '../components/Footer';
 
  const Contact = () => {
 
@@ -32,7 +31,12 @@ import Footer from '../components/Footer';
 								        <div className="close" onClick={()=> window.history.back()}></div>
 
 							</article>
-															            <Footer />
+	<div>
+    <footer id="footer">
+	<p className="copyright">&copy; Portfolio | Tigran Mkrtchyan,{new Date().getFullYear()}
+     </p>
+	</footer>
+	</div>
 </>
   )
 }

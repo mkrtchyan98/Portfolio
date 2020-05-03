@@ -1,4 +1,3 @@
-import Footer from '../components/Footer';
 
 const About = () => {
 
@@ -95,7 +94,12 @@ const About = () => {
 
 
 							</article>
-                  <Footer />
+  <div>
+    <footer id="footer">
+  <p className="copyright">&copy; Portfolio | Tigran Mkrtchyan,{new Date().getFullYear()}
+     </p>
+  </footer>
+  </div>
 
 							</div>
 

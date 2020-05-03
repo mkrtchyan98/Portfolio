@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Footer from '../components/Footer'
 
 export default function Home() {
 
@@ -20,7 +19,12 @@ export default function Home() {
   <li><Link href="/contact" ><a className="btn btn-primary" role="button">Contact</a></Link></li>
 </ul>
      </nav>
-         <Footer />
+  <div>
+    <footer id="footer">
+  <p className="copyright">&copy; Portfolio | Tigran Mkrtchyan,{new Date().getFullYear()}
+     </p>
+  </footer>
+  </div>
 
    </header>
   )

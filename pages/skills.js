@@ -1,4 +1,3 @@
-import Footer from '../components/Footer';
 
 const Skills = () => {
   return ( 
@@ -61,7 +60,12 @@ const Skills = () => {
           </div>	
                         <div className="close" onClick={()=> window.history.back()}></div>
           	</article>
-    <Footer />
+  <div>
+    <footer id="footer">
+  <p className="copyright">&copy; Portfolio | Tigran Mkrtchyan,{new Date().getFullYear()}
+     </p>
+  </footer>
+  </div>
 
 </div>
    )

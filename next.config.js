@@ -11,3 +11,10 @@ module.exports = {
     }
   },
 }
+
+const sitemap = require('nextjs-sitemap-generator');  
+sitemap({  
+  baseUrl: 'https://tmkrtchyan.now.sh/',  
+  pagesDirectory: __dirname + "/pages",  
+  targetDirectory : 'static/'  
+});

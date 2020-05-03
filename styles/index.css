@@ -162,6 +162,39 @@ p:hover {
   }
 
 
+body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+      -moz-animation: none !important;
+      -webkit-animation: none !important;
+      -ms-animation: none !important;
+      animation: none !important;
+      -moz-transition: none !important;
+      -webkit-transition: none !important;
+      -ms-transition: none !important;
+      transition: none !important;
+    }
+
+    body.is-preload #header {
+      -moz-filter: blur(0.125rem);
+      -webkit-filter: blur(0.125rem);
+      -ms-filter: blur(0.125rem);
+      filter: blur(0.125rem);
+    }
+
+      body.is-preload #header > * {
+        opacity: 0;
+      }
+
+      body.is-preload #header .content .inner {
+        max-height: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        opacity: 0;
+      }
+
+    body.is-preload #footer {
+      opacity: 0;
+    }
+
 
 /* Type */
 
@@ -208,12 +241,12 @@ p:hover {
     transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
     border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
     text-decoration: none;
+    color: inherit;
   }
-  a.btn-primary{
-     color: #FFFFFF;
-    background-color: #0054AD;
-  }
-
+a.btn-primary{
+  color:#fff;
+  background-color:#0054ad;
+}
     a:hover {
       border-bottom-color: transparent;
     }
@@ -297,66 +330,6 @@ p:hover {
 
   }
 
-  sub {
-    font-size: 0.8rem;
-    position: relative;
-    top: 0.5rem;
-  }
-
-  sup {
-    font-size: 0.8rem;
-    position: relative;
-    top: -0.5rem;
-  }
-
-  blockquote {
-    border-left: solid 4px #ffffff;
-    font-style: italic;
-    margin: 0 0 2rem 0;
-    padding: 0.5rem 0 0.5rem 2rem;
-  }
-
-  code {
-    background: rgba(255, 255, 255, 0.075);
-    border-radius: 4px;
-    font-family: "Courier New", monospace;
-    font-size: 0.9rem;
-    margin: 0 0.25rem;
-    padding: 0.25rem 0.65rem;
-  }
-
-  pre {
-    -webkit-overflow-scrolling: touch;
-    font-family: "Courier New", monospace;
-    font-size: 0.9rem;
-    margin: 0 0 2rem 0;
-  }
-
-    pre code {
-      display: block;
-      line-height: 1.75;
-      padding: 1rem 1.5rem;
-      overflow-x: auto;
-    }
-
-  hr {
-    border: 0;
-    border-bottom: solid 1px #ffffff;
-    margin: 2.75rem 0;
-  }
-
-  .align-left {
-    text-align: left;
-  }
-
-  .align-center {
-    text-align: center;
-  }
-
-  .align-right {
-    text-align: right;
-  }
-
 
 
 form {
@@ -397,13 +370,6 @@ form {
           width: calc(50% - 0.75rem);
         }
 
-        form > .fields > .field.third {
-          width: calc(100%/3 - 0.5rem);
-        }
-
-        form > .fields > .field.quarter {
-          width: calc(25% - 0.375rem);
-        }
 
     @media screen and (max-width: 480px) {
 
@@ -467,14 +433,6 @@ form {
     width: 100%;
   }
 
-    input[type="text"]:invalid,
-    input[type="password"]:invalid,
-    input[type="email"]:invalid,
-    input[type="tel"]:invalid,
-    select:invalid,
-    textarea:invalid {
-      box-shadow: none;
-    }
 
     input[type="text"]:focus,
     input[type="password"]:focus,
@@ -653,13 +611,7 @@ form {
       background-color: rgba(255, 255, 255, 0.075);
     }
 
-    input[type="submit"]:active,
-    input[type="reset"]:active,
-    input[type="button"]:active,
-    button:active,
-    .button:active {
-      background-color: rgba(255, 255, 255, 0.175);
-    }
+
 
     input[type="submit"].icon:before,
     input[type="reset"].icon:before,
@@ -669,23 +621,6 @@ form {
       margin-right: 0.5em;
     }
 
-    input[type="submit"].fit,
-    input[type="reset"].fit,
-    input[type="button"].fit,
-    button.fit,
-    .button.fit {
-      width: 100%;
-    }
-
-    input[type="submit"].small,
-    input[type="reset"].small,
-    input[type="button"].small,
-    button.small,
-    .button.small {
-      font-size: 0.6rem;
-      height: 2.0625rem;
-      line-height: 2.0625rem;
-    }
 
     input[type="submit"].primary,
     input[type="reset"].primary,
@@ -697,20 +632,6 @@ form {
       font-weight: 600;
     }
 
-    input[type="submit"].disabled, input[type="submit"]:disabled,
-    input[type="reset"].disabled,
-    input[type="reset"]:disabled,
-    input[type="button"].disabled,
-    input[type="button"]:disabled,
-    button.disabled,
-    button:disabled,
-    .button.disabled,
-    .button:disabled {
-      pointer-events: none;
-      cursor: default;
-      opacity: 0.25;
-    }
-
   input[type="submit"],
   input[type="reset"],
   input[type="button"],
@@ -719,11 +640,7 @@ form {
   }
 
 
-
  
-
-
-    
 
 /* Wrapper */
 
@@ -1137,7 +1054,7 @@ form {
 
     #footer .copyright {
       letter-spacing: 0.2rem;
-      font-size: 12px;
+      font-size: 0.6rem;
       opacity: 0.75;
       margin-bottom: 0;
       text-transform: uppercase;

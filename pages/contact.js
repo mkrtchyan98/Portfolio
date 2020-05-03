@@ -1,9 +1,9 @@
-  import Layout from '../components/Layout'
+import Footer from '../components/Footer';
 
  const Contact = () => {
 
   return (
-  	<Layout title="Contact Me">
+  	<>
     	<article id="contact">
 								<h2 className="major">Contact</h2>
 								<form action="mailto:tigranmkrtchyan23@gmail.com" method="post">
@@ -32,7 +32,8 @@
 								        <div className="close" onClick={()=> window.history.back()}></div>
 
 							</article>
-							</Layout>
+															            <Footer />
+</>
   )
 }
 

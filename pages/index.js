@@ -1,12 +1,11 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Layout from '../components/Layout'
+import Footer from '../components/Footer'
 
 export default function Home() {
 
  
   return (
-    <Layout title="Home page">
      <header id="header">
      <div className="content">
 <div className="inner">
@@ -21,7 +20,8 @@ export default function Home() {
   <li><Link href="/contact" ><a className="btn btn-primary" role="button">Contact</a></Link></li>
 </ul>
      </nav>
+         <Footer />
+
    </header>
-   </Layout>
   )
 }

@@ -1,8 +1,7 @@
- import Layout from '../components/Layout'
+import Footer from '../components/Footer';
 
 const Skills = () => {
   return ( 
-    <Layout title="My skills">
     	<div id="main">
 		<article id="skills">
 <div className="container-fluid">
@@ -62,9 +61,9 @@ const Skills = () => {
           </div>	
                         <div className="close" onClick={()=> window.history.back()}></div>
           	</article>
+    <Footer />
 
 </div>
-</Layout>
    )
 }
 

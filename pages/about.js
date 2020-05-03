@@ -1,9 +1,8 @@
- import Layout from '../components/Layout'
+import Footer from '../components/Footer';
 
 const About = () => {
 
   return (
- 	<Layout title="Portfolio">
  	    	<div id="main">
 	<article id="projects">
 <div className="responsive">
@@ -96,9 +95,10 @@ const About = () => {
 
 
 							</article>
+                  <Footer />
+
 							</div>
 
-</Layout>
    )
 }
 

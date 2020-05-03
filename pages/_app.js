@@ -6,12 +6,13 @@ import React from 'react'
 import { PageTransition } from 'next-page-transitions'
 
 export default class MyApp extends App {
+
   render() {
-    const { Component, pageProps,router } = this.props
+    const { Component, router } = this.props
     return (
-    	<>
+    	<div id="wrapper">
         <PageTransition timeout={300} classNames="page-transition">
-          <Component {...pageProps} key={router.route} />
+          <Component  key={router.route} />
         </PageTransition>
         <style jsx global>{`
           .page-transition-enter {
@@ -29,7 +30,7 @@ export default class MyApp extends App {
             transition: opacity 300ms;
           }
         `}</style>
-        </>
+        </div>
     )
   }
 }

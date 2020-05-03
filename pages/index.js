@@ -5,6 +5,7 @@ export default function Home() {
 
  
   return (
+    <>
     <Head>
   <meta name="description" content="Portfolio website with NextJS"/>
   <meta name="google-site-verification" content="gIOwiBoW39Ycp5Ey9LnucITGp5NxJyA7h5DeJWzdzU0" />
@@ -32,5 +33,6 @@ export default function Home() {
   </div>
 
    </header>
+   </>
   )
 }

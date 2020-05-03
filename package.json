@@ -12,9 +12,9 @@
     "bootstrap": "^4.4.1",
     "next": "9.3.6",
     "next-page-transitions": "^1.0.0-beta.2",
-    "nextjs-sitemap-generator": "^1.0.0",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "sitemap": "^6.1.2"
   },
   "devDependencies": {}
 }

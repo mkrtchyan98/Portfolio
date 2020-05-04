@@ -4,7 +4,6 @@ import '@fortawesome/fontawesome-free/css/all.css'
 import App from 'next/app'
 import React from 'react'
 import { PageTransition } from 'next-page-transitions'
-
 export default class MyApp extends App {
 
 
@@ -23,6 +22,7 @@ export default class MyApp extends App {
           .page-transition-enter-active {
             opacity: 1;
             transition: opacity 300ms;
+
           }
           .page-transition-exit {
             opacity: 1;

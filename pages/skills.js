@@ -1,6 +1,11 @@
+import Head from 'next/Head'
 
 const Skills = () => {
   return ( 
+    <>
+      <Head>
+            <title>Portfolio | Skills</title>
+</Head>
     	<div id="main">
 		<article id="skills">
 <div className="container-fluid">
@@ -68,6 +73,7 @@ const Skills = () => {
   </div>
 
 </div>
+</>
    )
 }
 

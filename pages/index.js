@@ -1,14 +1,11 @@
-import Head from 'next/head'
 import Link from 'next/link'
+import Head from 'next/Head'
+
 export default function Home() {
-
-
   return (
     <>
     <Head>
-  <meta name="description" content="Portfolio website with NextJS"/>
-  <meta name="google-site-verification" content="gIOwiBoW39Ycp5Ey9LnucITGp5NxJyA7h5DeJWzdzU0" />
-  <title>Portfolio | Tigran Mkrtchyan - Front-End Developer</title>
+            <title>Portfolio | Tigran Mkrtchyan - Front-End Developer</title>
 </Head>
      <header id="header">
      <div className="content">
@@ -19,7 +16,7 @@ export default function Home() {
      <nav>
 <ul>
   <li><Link href="/skills" ><a className="btn btn-primary" role="button">Skills</a></Link></li>
-  <li><Link href="/about" ><a className="btn btn-primary" role="button">About</a></Link></li>
+  <li><Link href="/projects" ><a className="btn btn-primary" role="button">Projects</a></Link></li>
   <li><Link href="/contact" ><a className="btn btn-primary" role="button">Contact</a></Link></li>
 </ul>
      </nav>

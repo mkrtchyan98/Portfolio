@@ -1,7 +1,12 @@
+import Head from 'next/Head'
 
 const About = () => {
 
   return (
+    <>
+      <Head>
+            <title>Portfolio | Projects</title>
+</Head>
  	    	<div id="main">
 	<article id="projects">
 <div className="responsive">
@@ -102,7 +107,7 @@ const About = () => {
   </div>
 
 							</div>
-
+</>
    )
 }
 

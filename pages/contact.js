@@ -1,8 +1,12 @@
+import Head from 'next/Head'
 
  const Contact = () => {
 
   return (
   	<>
+  	  <Head>
+            <title>Portfolio | Contact</title>
+</Head>
     	<article id="contact">
 								<h2 className="major">Contact</h2>
 								<form action="mailto:tigranmkrtchyan23@gmail.com" method="post">

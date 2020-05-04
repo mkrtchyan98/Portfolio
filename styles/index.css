@@ -161,40 +161,6 @@ p:hover {
   }
 
 
-body.is-preload *, body.is-preload *:before, body.is-preload *:after {
-      -moz-animation: none !important;
-      -webkit-animation: none !important;
-      -ms-animation: none !important;
-      animation: none !important;
-      -moz-transition: none !important;
-      -webkit-transition: none !important;
-      -ms-transition: none !important;
-      transition: none !important;
-    }
-
-    body.is-preload #header {
-      -moz-filter: blur(0.125rem);
-      -webkit-filter: blur(0.125rem);
-      -ms-filter: blur(0.125rem);
-      filter: blur(0.125rem);
-    }
-
-      body.is-preload #header > * {
-        opacity: 0;
-      }
-
-      body.is-preload #header .content .inner {
-        max-height: 0;
-        padding-top: 0;
-        padding-bottom: 0;
-        opacity: 0;
-      }
-
-    body.is-preload #footer {
-      opacity: 0;
-    }
-
-
 /* Type */
 
   html {

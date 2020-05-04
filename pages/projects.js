@@ -65,20 +65,6 @@ const About = () => {
     </div>
   </div>
 </div>	
-							
-<div className="responsive">
-  <div className="gallery">
-   <img src="/images/warehouse.png" alt="Warehouse app" />
-    <div className="desc">
-     <h3>product app</h3>
-     <h6> react and redux</h6>
-<a className="btn btn-primary" href="https://warehouse.onrender.com" role="button" target="_blank"  rel="noopener noreferrer" >See Website</a>
-	<a className="btn btn-primary" href="https://github.com/mkrtchyan98/WareHouseapp" role="button" target="_blank"  rel="noopener noreferrer" >See Code</a>
-
-
-    </div>
-  </div>
-</div>	
 <div className="responsive">
   <div className="gallery">
    <img src="/images/react-memory.png" alt="memory app" />
@@ -91,7 +77,22 @@ const About = () => {
 
     </div>
   </div>
-</div>              
+</div>   
+							
+<div className="responsive">
+  <div className="gallery">
+   <img src="/images/Math_quest.png" alt="Mat-quest app" />
+    <div className="desc">
+     <h3>Mat-quest</h3>
+     <h6> react hooks,material-ui </h6>
+<a className="btn btn-primary" href="https://math-quest.now.sh/add" role="button" target="_blank"  rel="noopener noreferrer" >See Website</a>
+	<a className="btn btn-primary" href="https://github.com/mkrtchyan98/Math-quest" role="button" target="_blank"  rel="noopener noreferrer" >See Code</a>
+
+
+    </div>
+  </div>
+</div>	
+           
 
 
 

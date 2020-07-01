@@ -85,7 +85,7 @@ const About = () => {
     <div className="desc">
      <h3>Mat-quest</h3>
      <h6> react hooks,material-ui </h6>
-<a className="btn btn-primary" href="https://math-quest.now.sh/add" role="button" target="_blank"  rel="noopener noreferrer" >See Website</a>
+<a className="btn btn-primary" href="https://math-quest.vercel.app/" role="button" target="_blank"  rel="noopener noreferrer" >See Website</a>
 	<a className="btn btn-primary" href="https://github.com/mkrtchyan98/Math-quest" role="button" target="_blank"  rel="noopener noreferrer" >See Code</a>
 
 

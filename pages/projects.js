@@ -92,7 +92,7 @@ const About = () => {
 			
 <div className="responsive">
   <div className="gallery">
-   <img src="/images/Math_quest.jpg" alt="Mat-quest app" />
+   <img src="/images/math_quest.jpg" alt="Mat-quest app" />
     <div className="desc">
      <h3>Mat-quest</h3>
      <h6> react hooks,material-ui </h6>

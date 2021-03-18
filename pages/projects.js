@@ -62,6 +62,18 @@ const About = () => {
 </div>
 
 <div className="responsive">
+            <div className="gallery">
+                <img src="/images/TuringMachine.png" alt="Turing Machine" />
+                <div className="desc">
+                    <h3>Turing Machine, binary increment implementation </h3>
+                    <h6>HTML, CSS, JS</h6>
+                    <a className="btn btn-primary" href="https://mkrtchyan98.github.io/TuringMachine/" role="button" target="_blank"  rel="noopener noreferrer" >See Website</a>
+                    <a className="btn btn-primary" href="https://github.com/mkrtchyan98/TuringMachine" role="button" target="_blank"  rel="noopener noreferrer" >See Code</a>
+                </div>
+            </div>
+        </div>
+
+<div className="responsive">
   <div className="gallery">
     	<img src="/images/shopping.jpg" alt="shopping" />
         <div className="desc">
